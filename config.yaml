@@ -1,0 +1,4 @@
+mqtt:
+  broker: fortress
+  port: 1883
+  topic: "tasmota/+/+/config"

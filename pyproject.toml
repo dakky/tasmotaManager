@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tasmotamanager"
+version = "0.1.0"
+description = ""
+authors = ["Dakkar <dakkar@dakkar.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+paho-mqtt = "^1.6.1"
+confuse = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
